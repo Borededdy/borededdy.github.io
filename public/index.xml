@@ -5,6 +5,24 @@
     <link>//localhost:1313/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>it-it</language><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>it-it</language>
+    <lastBuildDate>Thu, 01 Oct 2026 12:11:22 +0200</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Thu, 01 Oct 2026 12:11:22 +0200</pubDate>
+      
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a full-time Computer Science student at Università degli Studi di Firenze, my main focus is software engineering: I enjoy to follow the development of new project and create new ideas.
+In the free-time i&amp;rsquo;m also a Guitarist (self-taught), a photographer (more or less), a huge cinephile and an Hi-Fi and music enthusiast.&lt;/p&gt;
+&lt;p&gt;In the past i took part on many projects, my most successful one (as today) is my Gaming News and Reviews website (press-start.xyz)[https://press-start.xyz], this website led me to interface with some of the most important and prestigous Software-houses and industry leaders, such as Xbox, PlayStation, SquareEnix, EA and more. The project is now being held up by a strong group of people, i only own it (as i do not have more free time to write anymore&amp;hellip;).&lt;/p&gt;</description>
+      <content>&lt;p&gt;I&amp;rsquo;m a full-time Computer Science student at Università degli Studi di Firenze, my main focus is software engineering: I enjoy to follow the development of new project and create new ideas.
+In the free-time i&amp;rsquo;m also a Guitarist (self-taught), a photographer (more or less), a huge cinephile and an Hi-Fi and music enthusiast.&lt;/p&gt;
+&lt;p&gt;In the past i took part on many projects, my most successful one (as today) is my Gaming News and Reviews website (press-start.xyz)[https://press-start.xyz], this website led me to interface with some of the most important and prestigous Software-houses and industry leaders, such as Xbox, PlayStation, SquareEnix, EA and more. The project is now being held up by a strong group of people, i only own it (as i do not have more free time to write anymore&amp;hellip;).&lt;/p&gt;
+&lt;h2 id=&#34;what-is-this-blog-for&#34;&gt;What is this blog for?&lt;/h2&gt;
+&lt;p&gt;This blog will act as my little &amp;ldquo;place to write&amp;rdquo; and experiment, also, this will be part of my portfolio. I will share here some of my coolest projects, my adventures, photos and toughts.&lt;/p&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>
