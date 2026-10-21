@@ -1,0 +1,151 @@
+{{- $id := printf "gallery-%d" now.UnixNano -}}
+{{- $cols := .Get "cols" | default 3 -}}
+{{- $gap := .Get "gap" | default "10px" -}}
+
+<div class="hugo-gallery" id="{{ $id }}" style="--gallery-cols: {{ $cols }}; --gallery-gap: {{ $gap }};">
+  {{- if .Get "images" -}}
+    {{/* Modalità parametro: images="url1,url2,url3" */}}
+    {{- range $i, $url := split (.Get "images") "," -}}
+      {{- $url = trim $url " \n\r\t" -}}
+      {{- if $url }}
+      <figure class="gallery-item">
+        <a href="{{ $url }}" class="gallery-link">
+          <img src="{{ $url }}" alt="Immagine {{ add $i 1 }}" loading="lazy">
+        </a>
+      </figure>
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{/* Modalità shortcode annidato: {{< gallery-img src="..." alt="..." caption="..." >}} */}}
+    {{ .Inner }}
+  {{- end }}
+</div>
+
+{{- /* CSS e JS inclusi una sola volta per pagina */ -}}
+{{- if not (.Page.Scratch.Get "gallery-assets") -}}
+{{- .Page.Scratch.Set "gallery-assets" true -}}
+<style>
+  .hugo-gallery {
+    display: grid;
+    grid-template-columns: repeat(var(--gallery-cols, 3), 1fr);
+    gap: var(--gallery-gap, 10px);
+    margin: 1.5rem 0;
+  }
+  @media (max-width: 768px) {
+    .hugo-gallery { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 480px) {
+    .hugo-gallery { grid-template-columns: 1fr; }
+  }
+  .hugo-gallery .gallery-item {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 6px;
+    aspect-ratio: 4 / 3;
+    background: #eee;
+  }
+  .hugo-gallery .gallery-item a { display: block; height: 100%; }
+  .hugo-gallery .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform .3s ease;
+  }
+  .hugo-gallery .gallery-item:hover img { transform: scale(1.05); }
+  .hugo-gallery figcaption {
+    display: none;
+  }
+
+  /* Lightbox */
+  #gallery-lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .9);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9999;
+  }
+  #gallery-lightbox.open { display: flex; }
+  #gallery-lightbox img {
+    max-width: 92vw;
+    max-height: 82vh;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+  #gallery-lightbox .lb-caption {
+    color: #fff;
+    margin-top: .75rem;
+    font-size: .95rem;
+    text-align: center;
+    max-width: 90vw;
+  }
+  #gallery-lightbox button {
+    position: absolute;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    line-height: 1;
+    opacity: .8;
+  }
+  #gallery-lightbox button:hover { opacity: 1; }
+  #gallery-lightbox .lb-close { top: 10px; right: 15px; }
+  #gallery-lightbox .lb-prev { left: 10px; top: 50%; transform: translateY(-50%); }
+  #gallery-lightbox .lb-next { right: 10px; top: 50%; transform: translateY(-50%); }
+</style>
+
+<div id="gallery-lightbox" role="dialog" aria-modal="true" aria-label="Galleria immagini">
+  <button class="lb-close" aria-label="Chiudi">&times;</button>
+  <button class="lb-prev" aria-label="Precedente">&#8249;</button>
+  <img src="" alt="">
+  <div class="lb-caption"></div>
+  <button class="lb-next" aria-label="Successiva">&#8250;</button>
+</div>
+
+<script>
+(function () {
+  var lb = document.getElementById('gallery-lightbox');
+  var lbImg = lb.querySelector('img');
+  var lbCap = lb.querySelector('.lb-caption');
+  var items = [], current = 0;
+
+  function show(i) {
+    current = (i + items.length) % items.length;
+    var a = items[current];
+    var img = a.querySelector('img');
+    lbImg.src = a.href;
+    lbImg.alt = img.alt;
+    lbCap.textContent = a.dataset.caption || img.alt || '';
+    lb.classList.add('open');
+  }
+  function close() { lb.classList.remove('open'); lbImg.src = ''; }
+
+  document.querySelectorAll('.hugo-gallery').forEach(function (g) {
+    var links = Array.prototype.slice.call(g.querySelectorAll('.gallery-link'));
+    links.forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        items = links;
+        show(links.indexOf(a));
+      });
+    });
+  });
+
+  lb.querySelector('.lb-close').addEventListener('click', close);
+  lb.querySelector('.lb-prev').addEventListener('click', function () { show(current - 1); });
+  lb.querySelector('.lb-next').addEventListener('click', function () { show(current + 1); });
+  lb.addEventListener('click', function (e) { if (e.target === lb) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowLeft') show(current - 1);
+    if (e.key === 'ArrowRight') show(current + 1);
+  });
+})();
+</script>
+{{- end -}}
