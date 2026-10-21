@@ -25,6 +25,7 @@ pagination.pagerSize = 5
   # center theme with default width
   centerTheme = true
 
+  unsafe = true
   # if your resource directory contains an image called `cover.(jpg|png|webp)`,
   # then the file will be used as a cover automatically.
   # With this option you don't have to put the `cover` param in a front-matter.
@@ -61,7 +62,6 @@ pagination.pagerSize = 5
   # dismissible = false
   # text = "Check it out on GitHub"
   # url = "https://github.com/mirus-ua/hugo-theme-re-terminal"
-
 
 
 [params.twitter]
@@ -118,4 +118,3 @@ pagination.pagerSize = 5
     replacements = "github.com/mirus-ua/hugo-theme-re-terminal -> themes/re-terminal"
 #[[module.imports]]
 #  path = 'github.com/mirus-ua/hugo-theme-re-terminal'
-
