@@ -6,7 +6,217 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Thu, 01 Oct 2026 12:11:22 +0200</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Oct 2026 17:41:15 +0200</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ho Trovato il Teletext Dimenticato di TELE&#43; in una Vecchia VHS (ed è un Lost Media)</title>
+      <link>//localhost:1313/posts/how-i-recovered-unseen-teletext-from-vhs/</link>
+      <pubDate>Wed, 21 Oct 2026 17:41:15 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/how-i-recovered-unseen-teletext-from-vhs/</guid>
+      <description>&lt;p&gt;Ho da sempre amato il televideo, probabilmente molti di voi non se lo ricorderanno, altri invece lo associano spesso a un &amp;ldquo;trauma&amp;rdquo;, altri ad un caloroso e nostalgico ricordo&amp;hellip; Per molto tempo quella schermata piena di forme, scritte e colori che appariva sui canali tv alla pressione di un pulsante ha rappresentato per molti la fonte primaria di notizie, informazioni e divertimento. Insomma, il televideo è stato un vero e proprio precursore di internet. Prima di imbarcarci in quella che è stata la mia avventura nel recupero di un lost media che non ha mai visto la luce dal 2003 è bene fare un passo indietro e capire che cos&amp;rsquo;è e come funziona il &lt;strong&gt;teletext&lt;/strong&gt;&lt;/p&gt;</description>
+      <content>&lt;p&gt;Ho da sempre amato il televideo, probabilmente molti di voi non se lo ricorderanno, altri invece lo associano spesso a un &amp;ldquo;trauma&amp;rdquo;, altri ad un caloroso e nostalgico ricordo&amp;hellip; Per molto tempo quella schermata piena di forme, scritte e colori che appariva sui canali tv alla pressione di un pulsante ha rappresentato per molti la fonte primaria di notizie, informazioni e divertimento. Insomma, il televideo è stato un vero e proprio precursore di internet. Prima di imbarcarci in quella che è stata la mia avventura nel recupero di un lost media che non ha mai visto la luce dal 2003 è bene fare un passo indietro e capire che cos&amp;rsquo;è e come funziona il &lt;strong&gt;teletext&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;comè-nato-il-teletext&#34;&gt;Com&amp;rsquo;è nato il teletext&lt;/h1&gt;
+&lt;p&gt;Anni &amp;lsquo;70, Gran Bretagna. Negli studi della BBC alcuni tecnici stanno cercando di inventare un sistema dedicato alla trasmissione di dati via etere che potessero contenere del testo e che fossero visibili alla pressione di un pulsante. L&amp;rsquo;invenzione di questo sistema di telecomunicazione aggiuntivo avrebbe permesso ai possessori di televisori residenti in alcune delle zone più rurali dell&amp;rsquo;inghilterra (ma anche delle grandi città) di ottenere informazioni e notizie in modo rapido ed immediato, si sarebbe inoltre risolto il problema delle trascrizioni audio in tempo reale per i non udenti.&lt;/p&gt;
+&lt;p&gt;È nel 1971 che, grazie all&amp;rsquo;allora ingegnere &lt;strong&gt;John Adams&lt;/strong&gt; dei laboratori CAL di Philips viene proposto un primo modello di quello che poi diventerà effettivamente il teletext. Il tutto funziona tramite l&amp;rsquo;utilizzo del &lt;strong&gt;VBI&lt;/strong&gt; (Vertical Blanking Interval), segnale presente e necessario per il funzionamento dei segnali TV analogici, VGA, DVI ecc&amp;hellip; Il suo scopo principale è quello di creare un &amp;ldquo;intervallo di bianco&amp;rdquo; tra un frame e l&amp;rsquo;altro, questo permette al raggio del cannone ad elettroni di un tubo catodico di potersi riposizionare all&amp;rsquo;inizio della prima linea di &amp;ldquo;scrittura&amp;rdquo; sui fosfori, citando da Wikipedia:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!quote] &amp;quot;&amp;quot;
+&lt;em&gt;The VBI was originally needed because of the inductive inertia of the magnetic coils which deflect the electron beam vertically in a CRT; the magnetic field, and hence the position being drawn, cannot change instantly. Additionally, the speed of older circuits was lower than today’s. For horizontal deflection, there is also a pause between successive lines, to allow the beam to return from right to left, called the horizontal blanking interval. Modern CRT circuitry does not require such a long blanking interval, and thin panel displays require none, but the standards were established when the delay was needed (and to allow the continued use of older equipment). Blanking of a CRT may not be perfect due to equipment faults or brightness set very high; in this case a white retrace line shows on the screen, often alternating between fairly steep diagonals from right to left and less-steep diagonals back from left to right, starting in the lower right of the display.&lt;/em&gt;&lt;/p&gt;
+
+&lt;img src=&#34;https://ars.els-cdn.com/content/image/3-s2.0-B9780122095511500428-f09-05-9780122095511.gif&#34;  class=&#34;center&#34;  style=&#34;width: 35%;&#34;    /&gt;
+
+
+&lt;/blockquote&gt;
+&lt;p&gt;Il segnale che trasporta i bit del teletext viene dunque furbamente inserito in questo piccolo spazio vuoto, invisibile (poiché nascosto dai normali schermi) e relativamente poco oneroso in termini di banda, garantendone inoltre un continuo aggiornamento, dato che il VBI viene trasmesso continuamente tra un frame e l&amp;rsquo;altro. Il modello classico del teletext contiene e può rappresentare una vasta gamma di forme e colori (vengono scelti i colori primari: giallo, rosso, verde, blu, ciano, magenta e bianco) e quasi tutti i caratteri ASCII standard. La possibilità di poter disegnare varie forme permette dunque di realizzare veri e propri disegni a schermo, oltre a loghi, banner e molto altro.&lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;https://oldcomputers.net/pics/bbc-micro-left.jpg&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Il BBC Micro, uno dei primi PC (8 bit) utilizzati per la realizzazione delle pagine del CEEFAX&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+
+&lt;img src=&#34;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRhZMHTUqWSIcYDWY5B8pod-2PJVqdeDuNs0EB_0ZxtjwV2ROMvJ64xeg&amp;amp;s=10&#34;  class=&#34;left&#34;  style=&#34;width: 25%; float: left; margin-right: 5px;&#34;    /&gt;
+
+
+&lt;p&gt;Una volta che il segnale del teletext viene iniettato nel VBI, esso viene trasmesso in etere contemporaneamente alla trasmissione del programma. Per poter interpretare i dati ricevuti è stata necessaria l&amp;rsquo;introduzione nelle tv dell&amp;rsquo;epoca di appositi &lt;strong&gt;decoder&lt;/strong&gt; che memorizzavano il segnale ricevuto in una piccola memoria aggiornandolo costantemente. Alla pressione di un semplice tasto sul telecomando si poteva dunque far comparire la schermata.&lt;/p&gt;
+&lt;p&gt;Il primo servizio di teletext ad essere lanciato è lo storico CEEFAX, edito da BBC. Le cui trasmissioni di prova iniziano nel 1972. In Italia invece, il primo servizio a vedere la luce, come ben sappiamo è il TELEVIDEO, le sue trasmissioni tecniche iniziano però ben 12 anni dopo, nel 1984 su RAI1.&lt;/p&gt;
+&lt;div class=&#34;hugo-gallery&#34; id=&#34;gallery-1792653501287065539&#34; style=&#34;--gallery-cols: 3; --gallery-gap: 10px;&#34;&gt;
+    
+  &lt;figure class=&#34;gallery-item&#34;&gt;
+    &lt;a href=&#34;https://i.imgur.com/fe3je0T.png&#34; class=&#34;gallery-link&#34; data-caption=&#34;Indice generale del Televideo durante le prove tecniche del 1984&#34;&gt;
+      &lt;img src=&#34;https://i.imgur.com/fe3je0T.png&#34; alt=&#34;Teletext 1&#34; loading=&#34;lazy&#34;&gt;
+    &lt;/a&gt;
+  &lt;/figure&gt;
+
+  &lt;figure class=&#34;gallery-item&#34;&gt;
+    &lt;a href=&#34;https://i.imgur.com/q7NPIx9.png&#34; class=&#34;gallery-link&#34; data-caption=&#34;Pagina che mostra gli orari dei treni espressi&#34;&gt;
+      &lt;img src=&#34;https://i.imgur.com/q7NPIx9.png&#34; alt=&#34;Teletext 2&#34; loading=&#34;lazy&#34;&gt;
+    &lt;/a&gt;
+  &lt;/figure&gt;
+
+  &lt;figure class=&#34;gallery-item&#34;&gt;
+    &lt;a href=&#34;https://i.imgur.com/UW0HeOU.png&#34; class=&#34;gallery-link&#34; data-caption=&#34;Pagina che mostra le previsioni del nord&#34;&gt;
+      &lt;img src=&#34;https://i.imgur.com/UW0HeOU.png&#34; alt=&#34;Teletext 3&#34; loading=&#34;lazy&#34;&gt;
+    &lt;/a&gt;
+  &lt;/figure&gt;
+
+
+&lt;/div&gt;&lt;style&gt;
+  .hugo-gallery {
+    display: grid;
+    grid-template-columns: repeat(var(--gallery-cols, 3), 1fr);
+    gap: var(--gallery-gap, 10px);
+    margin: 1.5rem 0;
+  }
+  @media (max-width: 768px) {
+    .hugo-gallery { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 480px) {
+    .hugo-gallery { grid-template-columns: 1fr; }
+  }
+  .hugo-gallery .gallery-item {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 6px;
+    aspect-ratio: 4 / 3;
+    background: #eee;
+  }
+  .hugo-gallery .gallery-item a { display: block; height: 100%; }
+  .hugo-gallery .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform .3s ease;
+  }
+  .hugo-gallery .gallery-item:hover img { transform: scale(1.05); }
+  .hugo-gallery figcaption {
+    display: none;
+  }
+
+   
+  #gallery-lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .9);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9999;
+  }
+  #gallery-lightbox.open { display: flex; }
+  #gallery-lightbox img {
+    max-width: 92vw;
+    max-height: 82vh;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+  #gallery-lightbox .lb-caption {
+    color: #fff;
+    margin-top: .75rem;
+    font-size: .95rem;
+    text-align: center;
+    max-width: 90vw;
+  }
+  #gallery-lightbox button {
+    position: absolute;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    line-height: 1;
+    opacity: .8;
+  }
+  #gallery-lightbox button:hover { opacity: 1; }
+  #gallery-lightbox .lb-close { top: 10px; right: 15px; }
+  #gallery-lightbox .lb-prev { left: 10px; top: 50%; transform: translateY(-50%); }
+  #gallery-lightbox .lb-next { right: 10px; top: 50%; transform: translateY(-50%); }
+&lt;/style&gt;
+
+&lt;div id=&#34;gallery-lightbox&#34; role=&#34;dialog&#34; aria-modal=&#34;true&#34; aria-label=&#34;Galleria immagini&#34;&gt;
+  &lt;button class=&#34;lb-close&#34; aria-label=&#34;Chiudi&#34;&gt;&amp;times;&lt;/button&gt;
+  &lt;button class=&#34;lb-prev&#34; aria-label=&#34;Precedente&#34;&gt;&amp;#8249;&lt;/button&gt;
+  &lt;img src=&#34;&#34; alt=&#34;&#34;&gt;
+  &lt;div class=&#34;lb-caption&#34;&gt;&lt;/div&gt;
+  &lt;button class=&#34;lb-next&#34; aria-label=&#34;Successiva&#34;&gt;&amp;#8250;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+(function () {
+  var lb = document.getElementById(&#39;gallery-lightbox&#39;);
+  var lbImg = lb.querySelector(&#39;img&#39;);
+  var lbCap = lb.querySelector(&#39;.lb-caption&#39;);
+  var items = [], current = 0;
+
+  function show(i) {
+    current = (i + items.length) % items.length;
+    var a = items[current];
+    var img = a.querySelector(&#39;img&#39;);
+    lbImg.src = a.href;
+    lbImg.alt = img.alt;
+    lbCap.textContent = a.dataset.caption || img.alt || &#39;&#39;;
+    lb.classList.add(&#39;open&#39;);
+  }
+  function close() { lb.classList.remove(&#39;open&#39;); lbImg.src = &#39;&#39;; }
+
+  document.querySelectorAll(&#39;.hugo-gallery&#39;).forEach(function (g) {
+    var links = Array.prototype.slice.call(g.querySelectorAll(&#39;.gallery-link&#39;));
+    links.forEach(function (a) {
+      a.addEventListener(&#39;click&#39;, function (e) {
+        e.preventDefault();
+        items = links;
+        show(links.indexOf(a));
+      });
+    });
+  });
+
+  lb.querySelector(&#39;.lb-close&#39;).addEventListener(&#39;click&#39;, close);
+  lb.querySelector(&#39;.lb-prev&#39;).addEventListener(&#39;click&#39;, function () { show(current - 1); });
+  lb.querySelector(&#39;.lb-next&#39;).addEventListener(&#39;click&#39;, function () { show(current + 1); });
+  lb.addEventListener(&#39;click&#39;, function (e) { if (e.target === lb) close(); });
+  document.addEventListener(&#39;keydown&#39;, function (e) {
+    if (!lb.classList.contains(&#39;open&#39;)) return;
+    if (e.key === &#39;Escape&#39;) close();
+    if (e.key === &#39;ArrowLeft&#39;) show(current - 1);
+    if (e.key === &#39;ArrowRight&#39;) show(current + 1);
+  });
+})();
+&lt;/script&gt;
+&lt;h1 id=&#34;come-si-recupera-il-televideo-dalle-vhs&#34;&gt;Come si recupera il televideo dalle VHS?&lt;/h1&gt;
+&lt;p&gt;Molti di voi non sapranno che i VCR (Video Cassette Recorder) non registrano sulle cassette VHS solamente la parte video &amp;ldquo;a schermo&amp;rdquo; di un segnale, essi bensì memorizzano l&amp;rsquo;intera trasmissione, &lt;strong&gt;incluso ovviamente il VBI&lt;/strong&gt;.&lt;br&gt;
+&lt;em&gt;Questo significa quindi che dalle mie videocassette posso vedere il vecchio televideo?&lt;/em&gt; Si e no&amp;hellip; la risposta &lt;strong&gt;non è molto semplice&lt;/strong&gt;.
+Il principale problema che &lt;strong&gt;non&lt;/strong&gt; ci permette di visualizzare il teletext semplicemente premendo il pulsantino dedicato sul telecomando sta tutto nel modo in cui i VCR registrano e mandano in output il segnale. Il segnale Teletext originale viaggia ad &lt;strong&gt;altissima frequenza&lt;/strong&gt; (circa 5,7 MHz) nelle linee VBI, ma la banda passante della videoregistrazione VHS è limitata a poco più di &lt;strong&gt;3 MHz&lt;/strong&gt;! Questo provoca una drastica attenuazione e uno &amp;ldquo;smussamento&amp;rdquo; degli impulsi digitali, rendendo i bit indecifrabili per il chip decoder integrato nel televisore. A ciò si aggiungono le &lt;strong&gt;micro-oscillazioni meccaniche del nastro&lt;/strong&gt; (jitter temporale, rumore di tracking e imperfezioni del tamburo testine) che sfasano costantemente il sincronismo di riga.&lt;/p&gt;
+&lt;p&gt;Allo scopo dunque di poter visionare e recuperare queste &amp;ldquo;gemme perdute&amp;rdquo; nel tempo troviamo su github un software creato ad-hoc, &lt;a href=&#34;https://github.com/ali1234/vhs-teletext&#34;&gt;vhs-teletext&lt;/a&gt;,attraverso di esso è possibile, tramite un&amp;rsquo;adeguata strumentazione recuperare in modo quasi perfetto le pagine dalle VHS, riportando effettivamente alla luce pezzi di storia ormai dimenticati e nascosti.&lt;/p&gt;
+&lt;h2 id=&#34;il-mio-setup&#34;&gt;Il mio setup&lt;/h2&gt;
+&lt;p&gt;Per poter realizzare queste scansioni il mio setup è composto principalmente da tre componenti fondamentali:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PC&lt;/strong&gt;: CPU intel i5-4690k, 16GB ram, Arch Linux&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scheda di acquisizione&lt;/strong&gt;: PINNACLE PCTV pro. Connessa tramite PCI Legacy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VCR&lt;/strong&gt;: Sharp VC-GH60, 6 testine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;il-processo-di-acquisizione&#34;&gt;Il processo di acquisizione&lt;/h2&gt;
+&lt;p&gt;Prima di poter acquisire è necessario intallare e settare VHS-Teletext, lo facciamo innanzitutto clonando la repo github, una volta clonata, tramite python3 creiamo il venv al suo interno:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    python3 -m venv venv
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    source venv/bin/activate
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Successivamente &lt;strong&gt;installiamo le dipendenze richieste&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pip install .&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;viewer&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;A questo punto, è necessario verificare come sono ordinati gli input della scheda di acquisizione e selezionarne uno. In questo caso, i comandi che vedrete sono relativi alla mia scheda, potrebbero dunque differire dalla vostra. Per una corretta acquisizione vi sconsiglio di utilizzare l&amp;rsquo;input RF (antenna classica), bensì di utilizzare l&amp;rsquo;input  video composito (cavo RCA giallo) in quanto la frequenza di output dal VCR ha una miglior definizione. Una soluzione ancora migliore (se la vostra scheda lo permette) è l&amp;rsquo;utilizzo dell&amp;rsquo;uscita &lt;strong&gt;S-Video&lt;/strong&gt;, che separando luminanza e crominanza rende ancora più nitido il VBI, che si trova proprio nella luminanza.\&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    v4l2-ctl -d /dev/vostra_scheda --list-inputs
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    v4l2-ctl -d /dev/vostra_scheda --set-input&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;input_desiderato
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    v4l2-ctl -d /dev/vostra_scheda --set-standard&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;PAL //impostiamo il segnale PAL per precauzione.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;A questo punto avviamo la videocassetta all&amp;rsquo;interno del videoregistratore e iniziamo la cattura del VBI:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    teletext record -d /dev/vostra_scheda &amp;gt; capture.vbi
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Non esiste un tempo massimo e un tempo minimo di durata della registrazione, dato che il segnale teletext viene ripetuto costantemente basterebbero pochi secondi, ma la ridondanza aiuta molto il programma di decodifica e interpretazione del vbi. Vi consiglio di fare un primo test di 3/5 minuti (per vedere le condizioni in cui versa il nastro), se trovate pagine, allora procedete a una registrazione dalla durata minima di &lt;strong&gt;15 minuti&lt;/strong&gt;.&lt;br&gt;
+Eseguiamo adesso la &amp;ldquo;deconvoluzione&amp;rdquo; del segnale, partendo dal vbi grezzo, tramite il comando &lt;code&gt;deconvolve&lt;/code&gt; i dati sottoposti a convoluzione vengono confrontati con dei template per determinare quale fosse il dato originale. La sequenza viene innanzitutto ricampionata a 1 campione per &amp;ldquo;bit&amp;rdquo;, dopodiché viene suddivisa in &amp;ldquo;byte&amp;rdquo;. Ciascun byte viene confrontato con le tabelle di addestramento, includendo alcuni bit precedenti e successivi. La corrispondenza più vicina rappresenta il segnale originale più probabile.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    teletext deconvolve capture.vbi &amp;gt; stream.t42
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    </item>
+    
     <item>
       <title>About</title>
       <link>//localhost:1313/about/</link>
